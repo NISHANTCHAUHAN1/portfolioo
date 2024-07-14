@@ -60,6 +60,11 @@
     cursor: pointer;
 }
 
+.hero-resume a {
+    text-decoration: none;
+    color: white;
+}
+
 .hero-connect:hover{
     border: 2px solid #fff;
 }
