@@ -125,6 +125,18 @@
     transition: 0.3s;
 }
 
+@media screen and (max-width: 1168px){
+    .contact-right input {
+        width: 100%;
+        font-size: 20px;
+    }
+    .contact-right textarea{
+        width: 95%;
+        font-size: 20px;
+    }
+}
+
+
 @media(max-width:768px){
     .contact{
         gap: 50px;
@@ -174,3 +186,15 @@
         padding: 15px 40px;
     }
 }
+
+@media screen and (max-width: 450px){
+    .contact-title h1{
+        font-size: 30px;
+    }
+    .contact{
+        gap: 17px;
+        margin: 20px 50px;
+        align-items: start;
+    }
+}
+

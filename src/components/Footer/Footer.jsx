@@ -1,6 +1,5 @@
 import React from 'react'
 import './footer.css'
-import footerlogo from '../../assets/footer_logo.svg'
 
 const Footer = () => {
   
@@ -8,8 +7,8 @@ const Footer = () => {
     <div className='footer'>
       <div className="footer-top">
         <div className="footer-top-left">
-            <img src={footerlogo} alt="" />
-            <p>I am a frontend developer from, USA with 10 years of experience in companies like Microsoft, Tesla and Apple.</p>
+            <span>NisH</span>
+            <p>Hello there! I'm a frontend developer developer base in Delhi, with a passion for building beautiful and functional websites.</p>
         </div>
         <div className="footor-top-right">
             <div className="footer-icons">
@@ -25,7 +24,8 @@ const Footer = () => {
             </div>
         </div>
       </div>
-      <hr />
+
+      <hr className='footer-hr'/>
 
       <div className="footer-bottom">
         <p className='footer-bottom-left'>© 2023 Nishant. All rights reserved.</p>

@@ -5,6 +5,16 @@
     margin: 20px 10%;
 }
 
+.navbar span{
+    font-size: 40px;
+    font-weight: 600;
+    background: linear-gradient(267deg, #Df8908 0.36%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
 .nav-menu{
     display: flex;
     align-items: center;
@@ -48,6 +58,13 @@
 .nav-mob-open{
     display: none;
 }
+
+@media screen and (max-width: 950px){
+    .nav-menu{
+        gap: 30px;
+        font-size: 15px;
+    }
+}
 @media(max-width: 768px){
     .navbar{
         margin: 20px 6%;
@@ -64,7 +81,6 @@
         display: block;
         position: absolute;
         top: 30px;
-        /* right: 7%; */
         left: 240px;
         width: 30px;
     }

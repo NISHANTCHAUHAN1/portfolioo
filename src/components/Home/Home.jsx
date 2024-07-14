@@ -7,9 +7,9 @@ import resumePdf from '../../assets/Nishantresume.pdf';
 const Home = () => {
   return (
     <div id='home' className='home'>
-       <img className='profile_img' src={port_img} alt="" />
+       <img className='profile_img' src={'/portfoliooo.png'} alt="" />
        <h1> <span>I'm Nishant,</span> Forntend developer based in India.</h1>
-       <p className='home-p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi similique eum repellendus.</p>
+       <p className='home-p'>Thanks for visiting my site, its really nice to have you here.</p>
        <div className="hero-action">
         <div className='hero-connect'><AnchorLink className='anchor-link' href='#contact'><p>Connect With Me</p></AnchorLink></div>
         <div className="hero-resume">

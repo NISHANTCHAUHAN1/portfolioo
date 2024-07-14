@@ -10,6 +10,16 @@
     justify-content: space-between;
 }
 
+.footer-top-left span {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    background: linear-gradient(267deg, #Df8908 0.36%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} 
+
 .footer-top-left p{
     font-size: 20px;
     max-width: 400px;
@@ -39,6 +49,10 @@
     margin-bottom: 50px;
 }
 
+.footer-hr{
+    width: 100%;
+}
+
 @media(max-width:768px){
     .footer{
         margin: 50px 70px;
@@ -57,5 +71,8 @@
 @media screen and (max-width: 450px){
     .footer-top {
         flex-direction: column;
+    }
+    .footer-bottom-left{
+        font-size: 12px;
     }
 }

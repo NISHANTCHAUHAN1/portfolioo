@@ -5,13 +5,9 @@
     gap: 35px;
 }
 
-/* .home img {
-    margin-top: 150px;
-} */
-
 .profile_img{
     margin-top: 30px;
-    width: 240px;
+    /* width: 240px; */
     border-radius: 50%;
 }
 
@@ -41,7 +37,6 @@
     display: flex;
     align-items: center;
     gap: 25px;
-    /* font-size: 24px; */
     font-weight: 50;
     margin-bottom: 50px;
 }
@@ -107,3 +102,13 @@
         border-radius: 40px;
     }
 }
+
+@media screen and (max-width: 450px){
+    .hero-action {
+        gap: 10px;
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 35px;
+    }
+}
+
