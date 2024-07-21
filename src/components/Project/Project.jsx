@@ -12,7 +12,7 @@ export const data=[
         title:"This is a project made to learn about the javascript by building an app.",
         image:ecom,
         github:"https://github.com/NISHANTCHAUHAN1/ecom-fullstack-Web",
-        live:"https://ecom-fullstack-web-blond.vercel.app/",
+        live:"https://ecom-a946b.web.app/",
     },
     {
         id:2,
