@@ -1,8 +1,7 @@
 import React from 'react'
 import './Home.css'
-import port_img from '../../assets/profile_img.svg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import resumePdf from '../../assets/Nishantresume.pdf';
+import resumePdf from '../../assets/NishantResume.pdf.pdf';
 
 const Home = () => {
   return (
