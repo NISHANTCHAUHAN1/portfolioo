@@ -9,28 +9,28 @@ import blogweb from '../../assets/blogweb.png';
 export const data=[
     {
         id:1,
-        title:"This is a project made to learn about the javascript by building an app.",
+        title:"Ecom Web more details in resume",
         image:ecom,
         github:"https://github.com/NISHANTCHAUHAN1/ecom-fullstack-Web",
         live:"https://ecom-a946b.web.app/",
     },
     {
         id:2,
-        title:"This is a project made to learn about how Local storage work in javascript by building an app.",
+        title:"Blog Web more details in resume",
         image:blogweb,
         github:"https://github.com/NISHANTCHAUHAN1/FullStackBlogWeb",
         live:"https://nishblogweb.netlify.app/",
     },
     {
         id:3,
-        title:"This is a project made to learn about the React by building an app.",
+        title:"Todo Web more details in resume.",
         image:todo,
         github:"https://github.com/NISHANTCHAUHAN1/Todo2",
         live:"https://todo2-chi.vercel.app",
     },
     {
         id:4,
-        title:"This is a project made to learn about the javascript by building an app.",
+        title:"Pinao web using js",
         image:pinao,
         github:"https://github.com/NISHANTCHAUHAN1/Pinao",
         live:"https://pinao-pied.vercel.app/",
@@ -39,7 +39,6 @@ export const data=[
 ]
 
 const Project = () => {
-  const mywork = data;
   return (
     <div id='project' className='project'>
       <div className="mywork-title">
@@ -53,7 +52,7 @@ const Project = () => {
             <div className="portfolio_item-image">
               <img src={image} alt="" />
             </div>
-            <h3>this is a portfolio title</h3>
+            <h3>{title}</h3>
             <div className='btns'>
             <a href={github} className='btn' target='blank'>Github</a>
             <a href={live} className='btn btn-pirmary' target='blank'>Live Demo</a>
